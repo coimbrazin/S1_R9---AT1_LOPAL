@@ -3,8 +3,7 @@
 let numeros = [];
 
 for (let i = 0; i < 10; i++) {
-  let randomNumbers = Math.ceil(Math.random() * 100);
-  numeros[i] = randomNumbers;
+  numeros[i] = i+1;
 }
 
 console.log(numeros);
