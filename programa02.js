@@ -7,14 +7,14 @@ for (let i = 0; i < 4; i++) {
   let nota = parseFloat(prompt(`Digite a nota: `));
   if (!isNaN(nota) && nota >= 0) {
     notas[i] = nota;
-    soma+=nota; 
+    soma += nota;
   } else {
     alert("O valor digitado é inválido, tente novamente");
     i--;
   }
 }
 
-let mediaSoma = soma/4
+let mediaSoma = soma / 4;
 
-console.log(notas)
-console.log(`A média das notas é: ${mediaSoma}`)
+console.log(notas);
+console.log(`A média das notas é: ${mediaSoma}`);
